@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7060369245945431155
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7060369245945431153}
+  - component: {fileID: 7060369245945431152}
+  m_Layer: 0
+  m_Name: ObstaclesCreater
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7060369245945431153
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7060369245945431155}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9.346955, y: -3.2437592, z: -0.13799386}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7060369245945431152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7060369245945431155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 918179268a2ae1543827fa459c0bb570, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _createNextItemInterval: 2
+  _itemPrefabs:
+  - {fileID: 947142949768657611, guid: 423e4c7a22135664eb2d6efc0b2ee0e9, type: 3}
+  - {fileID: 3445000976073965805, guid: 99e5d9efade37af458218b1345538f81, type: 3}
+  - {fileID: 1923143787056928518, guid: d7af3c573b7af704b883c4175ba789cc, type: 3}
+  - {fileID: 3781586818396381981, guid: a23b774afcf3e6a4ca5caba270a78391, type: 3}
+  - {fileID: 1246535097200936479, guid: f5a4947e62011a8438dbcb98cd04cb82, type: 3}
+  - {fileID: 2977820304005642916, guid: 5c82e24a3e9310749823d82270c8aef4, type: 3}
+  - {fileID: 3863814622702721057, guid: a3c9594cd05f9c84e910eeae6b84dd87, type: 3}
+  - {fileID: 5610327569019539986, guid: 73cf6c06c75ae834ebb2a15d20d37742, type: 3}
+  _loopCreate: 1
+  _minY: 0
+  _maxY: 0
+  _canCreate: 1
